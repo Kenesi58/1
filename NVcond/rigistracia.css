@@ -1,0 +1,186 @@
+/* Global nastroiki*/
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/fon.png)
+    no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*Header*/
+#main-nav{
+    background-color: rgb(247, 247, 247);
+    height: 80px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo-holder {
+    float:left ;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.logo-img {width: 70%;}
+
+.korz {width: 20px;}
+
+#main-menu {list-style: none;padding-top: 10px;width: 90%;margin: auto; padding-right: 750px;}
+
+.main-menu-item {display: inline-block; padding-right: auto;}
+
+
+.main-menu-item a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #430098;
+    padding: 5px;
+    margin: 0 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.main-menu-item a:hover {
+    background-color: rgb(160, 160, 142) ;}
+
+   
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0; 
+}
+
+.logo-bottom {width: 100px;}
+
+        .slogan-bottom {
+            margin: 0 -17px;
+            font-size: .9rem;
+        }
+
+       
+        .korzin { width:80px; /* задаем ширину дива */
+            height: 50px; /* задаем высоту дива */
+            position: relative; /* устанавливаем позиционирование элемента как относительное */
+            margin-right: 20px;  
+        }
+
+        .korzin img{
+            width: 100%; /* ширина картинки равна ширине родительского блока */
+    height: auto; /* автоматическое определение высоты для сохранения пропорций */
+    
+}
+
+/*form*/
+
+
+.wrapper {
+    width: 420px;
+    margin-top: 200px;
+    background: #430098;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.input-box input{
+    width: 99%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 0 0 0 2px;
+
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+
+.wrapper .remeber {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remeber label input {
+    accent-color: white;
+    margin-right: 3px;
+}
+
+.remeber a{
+    color: white;
+    text-decoration: none;
+}
+
+.remeber a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 2px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+    color: purple;
+}
